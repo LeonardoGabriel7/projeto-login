@@ -31,7 +31,8 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 515px;
+    height: 556px;
+    width: 300px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
     
