@@ -59,6 +59,7 @@ div#formulario{
 
 #formulario p{
     font-size: 0.8em;
+    margin: 20px 0px;
 }
 
 form > input {
@@ -100,15 +101,39 @@ a.botao i{
     font-size: 0.8em;
 }
 
-form div.campo{
+.campo {
     background-color: #5f2c82;
     width: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
 }
 
-div.campo label{
-display: none;
+.campo label {
+    display: none;
+}
+
+.campo i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.campo input {
+    background-color: #45ccc7a4;
+    font-size: 1em;
+    width: calc(100% - 42px); 
+    height: 90%;
+    border: 0px;
+    border-radius: 0 5px 5px 0;
+    padding: 2px;
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+    border: none;
 }
